@@ -1,0 +1,105 @@
+﻿body {
+    background-image: url('../images/1646941.jpg');
+    background-repeat: repeat-x;
+    text-align: center;
+    font-size: large;
+}
+
+h1, h2, p, body{
+    color: #f9faff;
+}
+
+h1{
+    border-style: double;
+    border-width: thick;
+    border-color: #ffffff;
+    margin: 25px 350px;
+}
+
+p{
+    margin: 150px 40px 300px 40px;
+}
+
+.mGrid {   
+    width: 100%;   
+    background-color: #f9faff;
+    margin: 5px 0 10px 0;   
+    border: groove 12px #3d789a;   
+    border-collapse:collapse; 
+    color: #0d0d0d;  
+}
+tr:nth-of-type(even) {
+    background-color: #99bed0;
+}
+.mGrid td {   
+    padding: 2px;   
+    border: solid 2px #3d789a;   
+    color: #0d0d0d;   
+}  
+.mGrid th {   
+    padding: 4px 2px;   
+    color: #0d0d0d;   
+    background: #f9faff repeat-x top;   
+    border-left: solid 1px #3d789a;   
+    font-size: 0.9em;   
+}  
+.mGrid .alt { 
+    background: #3d789a  repeat-x top; 
+}  
+.mGrid .pgr { 
+    background: #3d789a  repeat-x top; 
+}  
+.mGrid .pgr table 
+{ 
+    margin: 5px 0; 
+}  
+.mGrid .pgr td 
+{   
+    border-width: 0;   
+    padding: 0 6px;   
+    border-left: solid 1px #3d789a;   
+    font-weight: bold;   
+    color: #3d789a;   
+    line-height: 12px;   
+ }     
+.mGrid .pgr a { 
+    color: #3d789a; text-decoration: none; 
+}  
+.mGrid .pgr a:hover { 
+    color: #3d789a; text-decoration: none; 
+}
+.button {
+    background-color: #f9faff; 
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #3d789a;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    width: 200px;
+}
+.button:hover 
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #dddddb; 
+    color: #3471d6;
+}
+.button:active 
+{
+  background-color: #fcfcfc;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.dropdown
+{
+    background-color: #fcfcf4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #3d789a;
+    padding: 2px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
